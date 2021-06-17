@@ -1,6 +1,7 @@
 package com.ivan.polovyi.objectpool;
 
 import javafx.geometry.Point2D;
+
 //concrete reusable
 public class Bitmap implements Image {
 
@@ -14,7 +15,7 @@ public class Bitmap implements Image {
 
     @Override
     public void draw() {
-        System.out.println("Drawing "+name+" @ "+location);
+        System.out.println("Drawing " + name + " @ " + location);
     }
 
     @Override
@@ -27,4 +28,9 @@ public class Bitmap implements Image {
         this.location = location;
     }
 
+    @Override
+    public void reset() {
+        location = null;
+        System.out.println("BitMap is reset");
+    }
 }

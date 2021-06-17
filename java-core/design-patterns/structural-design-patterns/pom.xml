@@ -11,6 +11,16 @@
 
     <groupId>com.ivan.polovyi.structural-design-patterns</groupId>
     <artifactId>structural-design-patterns</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>adapter-pattern</module>
+        <module>bridge-pattern</module>
+        <module>decorator-pattern</module>
+        <module>composite-pattern</module>
+        <module>facade-pattern</module>
+        <module>flyweight-pattern</module>
+        <module>proxy-pattern</module>
+    </modules>
 
 
 </project>
