@@ -11,6 +11,21 @@
 
     <groupId>com.ivan.polovyi.behavioral-design-patterns</groupId>
     <artifactId>behavioral-design-patterns</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>chain-of-responsibility-pattern</module>
+        <module>command-pattern</module>
+        <module>interpreter-pattern</module>
+        <module>mediator-pattern</module>
+        <module>iterator-pattern</module>
+        <module>memento-pattern</module>
+        <module>observer-pattern</module>
+        <module>state-pattern</module>
+        <module>strategy-pattern</module>
+        <module>template-pattern</module>
+        <module>visitor-pattern</module>
+        <module>null-object-pattern</module>
+    </modules>
 
 
 </project>
